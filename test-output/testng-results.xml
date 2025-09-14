@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-14T12:08:02 IST" name="Default suite" finished-at="2025-09-14T12:08:19 IST" duration-ms="17746">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@609db43b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-14T12:08:02 IST" name="Default test" finished-at="2025-09-14T12:08:19 IST" duration-ms="17746">
+      <class name="TestRunner.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestNGTestRunner@609db43b]" started-at="2025-09-14T12:08:02 IST" name="setUpClass" finished-at="2025-09-14T12:08:02 IST" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28ee7bee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@609db43b]" started-at="2025-09-14T12:08:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T12:08:13 IST" duration-ms="10452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of login using excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login using exceel data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@609db43b]" started-at="2025-09-14T12:08:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T12:08:13 IST" duration-ms="10400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of login using excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login using exceel data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@609db43b]" started-at="2025-09-14T12:08:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T12:08:13 IST" duration-ms="10517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of login using excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login using exceel data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@609db43b]" started-at="2025-09-14T12:08:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T12:08:17 IST" duration-ms="14274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of login using excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login using exceel data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@609db43b]" started-at="2025-09-14T12:08:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-14T12:08:13 IST" duration-ms="10595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of login using excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login using exceel data"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestNGTestRunner@609db43b]" started-at="2025-09-14T12:08:17 IST" name="tearDownClass" finished-at="2025-09-14T12:08:19 IST" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
