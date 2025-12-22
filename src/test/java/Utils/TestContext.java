@@ -8,7 +8,6 @@ public class TestContext {
 	
 	public TestSetup ts;
 	public PageObjectManager pm;
-	public WebDriver driver;
 	public Commons common;
 	
 	public TestContext() throws IOException

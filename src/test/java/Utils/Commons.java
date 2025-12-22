@@ -1,9 +1,10 @@
 package Utils;
 
+
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -14,9 +15,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-
-import PageObjects.HomePage;
 
 public class Commons {
 	
@@ -123,7 +121,6 @@ public class Commons {
 			mylist.add(currenthash);
 		}
 		workbook.close();
-		fi.close();
 		return mylist;
 	}
 
