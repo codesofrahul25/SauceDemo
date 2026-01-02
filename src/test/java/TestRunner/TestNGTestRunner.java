@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 glue="StepDefinitions", 
 monochrome=true,
 dryRun=false,
-tags = "@ddt",
+tags = "@checkout",
 plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 
 
