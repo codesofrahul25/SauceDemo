@@ -20,7 +20,9 @@ public class TestSetup {
 		Properties prop = new Properties();
 		prop.load(fi);
 		String url = prop.getProperty("url");
-		String browser = prop.getProperty("browser");
+		String browser_property = prop.getProperty("browser");
+		String browser_maven = System.getProperty("browser");
+		String browser = browser_maven != null ? browser_maven : browser_property;
 		if(driver==null)
 		{
 			if(browser.equalsIgnoreCase("chrome"))

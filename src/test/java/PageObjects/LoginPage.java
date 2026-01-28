@@ -1,46 +1,43 @@
 package PageObjects;
 
-import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
-public class LoginPage {
-	
-	public WebDriver driver;
-	
-	public LoginPage(WebDriver driver)
-	{
-		this.driver = driver;
+public class LoginPage extends BasePaage {
+
+	public LoginPage(WebDriver driver) {
+		super(driver);
 	}
-	
-	By txt_username = By.xpath("//input[@id='user-name']");
-	By txt_password = By.xpath("//input[@id='password']");
-	By btn_login = By.xpath("//input[@id='login-button']");
-	By txt_errorMsg = By.xpath("//div[@class='error-message-container error']/h3");
-	
-	public void sendUserName(String username)
-	{
-		driver.findElement(txt_username).sendKeys(username);
+
+	@FindBy(xpath = "//input[@id='user-name']")
+	WebElement txt_username;
+	@FindBy(xpath = "//input[@id='password']")
+	WebElement txt_password;
+	@FindBy(xpath = "//input[@id='login-button']")
+	WebElement btn_login;
+	@FindBy(xpath = "//div[@class='error-message-container error']/h3")
+	WebElement txt_errorMsg;
+
+	public void sendUserName(String username) {
+		txt_username.sendKeys(username);
 	}
-	
-	public void sendPassword(String password)
-	{
-		driver.findElement(txt_password).sendKeys(password);
+
+	public void sendPassword(String password) {
+		txt_password.sendKeys(password);
 	}
-	
-	public void clickLogin()
-	{
-		driver.findElement(btn_login).click();
+
+	public void clickLogin() {
+		btn_login.click();
 	}
-	
-	public String getLoginPageTitle()
-	{
+
+	public String getLoginPageTitle() {
 		return driver.getTitle();
 	}
-	
-	public String getErrorMessage()
-	{
-		return driver.findElement(txt_errorMsg).getText();
+
+	public String getErrorMessage() {
+		return txt_errorMsg.getText();
 	}
 
 }

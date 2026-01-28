@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-10T14:54:29 IST" name="Surefire suite" finished-at="2025-09-10T14:54:40 IST" duration-ms="11056">
+  <suite started-at="2026-01-28T11:25:18 IST" name="Surefire suite" finished-at="2026-01-28T11:25:26 IST" duration-ms="7833">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@10e31a9a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@c430e6c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-09-10T14:54:29 IST" name="Surefire test" finished-at="2025-09-10T14:54:40 IST" duration-ms="11056">
+    <test started-at="2026-01-28T11:25:18 IST" name="Surefire test" finished-at="2026-01-28T11:25:26 IST" duration-ms="7833">
       <class name="TestRunner.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestNGTestRunner@10e31a9a]" started-at="2025-09-10T14:54:29 IST" name="setUpClass" finished-at="2025-09-10T14:54:30 IST" duration-ms="913" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestNGTestRunner@c430e6c]" started-at="2026-01-28T11:25:18 IST" name="setUpClass" finished-at="2026-01-28T11:25:18 IST" duration-ms="592" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@75a0c890]]>
+                <![CDATA[org.testng.TestRunner@2c991465]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@10e31a9a]" started-at="2025-09-10T14:54:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T14:54:35 IST" duration-ms="5701" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestNGTestRunner@c430e6c]" started-at="2026-01-28T11:25:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-28T11:25:24 IST" duration-ms="5273" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Test lowest name sort"]]>
+                <![CDATA["Validation of checkout feature"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Testing cart functionality"]]>
+                <![CDATA["Testing Check Out functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestNGTestRunner@10e31a9a]" started-at="2025-09-10T14:54:35 IST" name="tearDownClass" finished-at="2025-09-10T14:54:40 IST" duration-ms="4380" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestNGTestRunner@c430e6c]" started-at="2026-01-28T11:25:24 IST" name="tearDownClass" finished-at="2026-01-28T11:25:26 IST" duration-ms="1812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
